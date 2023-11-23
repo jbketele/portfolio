@@ -8,45 +8,68 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bootstrap.min.js">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+            box-sizing: border-box;
+        }
 
+        html {
+            line-height: 1.15;
+            /* 1 /
+  -webkit-text-size-adjust: 100%; / 2 */
+            padding: 0;
+            margin: 0;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <img src="imgs/AdobeStock_80778668.jpeg" class="field" alt="">
-        <div class="dark-overlay ">
-            <div class="over container text-overlay d-flex justify-content-center text-white">
-                <h1 class="display-3">BIENVENUE</h1>
+    <section class="landing">
+        <img src="imgs/AdobeStock_202119788.jpeg" class="field row" alt="">
+        <div class="dark-overlay">
+            <div class="over text-overlay">
+                <h1 class="display-3  d-flex justify-content-center text-white">BIENVENUE</h1>
+                <h2 class="d-flex justify-content-center text-white">Jean-Baptiste Kétèle</h2>
+                <p class="d-flex justify-content-center text-white fs-4 fst-italic">En reconversion professionnelle, de
+                    l'agriculte
+                    au
+                    web</p>
             </div>
         </div>
-        <header>
-            <div class="container-fluid menu ">
-                <img src="imgs/my-logo-fr*.png" class="logo" alt="">
-            </div>
+
+        <header class="position-absolute menu d-flex">
+            <img src="imgs/my-logo-fr_.png" class="logo mt-3" alt="">
             <nav class="navbar navbar-expand-sm">
                 <div class="container">
-                    <ul class="navbar-nav d-flex align-items-center mt-5">
+                    <ul class="navbar-nav">
                         <li class="nav-item mt-1">
                             <a class="navbar-brand text-dark" href="index.html">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-dark" href="#">Agri</a>
+                            <a class="nav-link active text-dark" href="histo.html">Historique</a>
                         <li class="nav-item">
-                            <a class="nav-link active text-dark" href="#">Market</a>
+                            <a class="nav-link active text-dark" href="real.html">Réalisations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-dark" href="#">À propos</a>
+                            <a class="nav-link active text-dark" href="propos.html">À propos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Conatct</a>
+                            <a class="nav-link text-dark" href="contact.html">Conatct</a>
                         </li>
                     </ul>
                     </ul>
                 </div>
-
             </nav>
         </header>
-    </div>
+    </section>
+
 </body>
 
 </html
