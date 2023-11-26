@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bootstrap.min.js">
     <style>
@@ -32,7 +33,7 @@
 
 <body>
     <div class="background">
-        <img src="imgs/vertical-shot-field-reedbeds-snape-maltings-suffolk-uk.jpg" class="field2" alt="">
+        <img src="imgs/vertical-closeup-shot-sweet-grass-branches-field.jpg" class="field2" alt="">
     </div>
     <section>
         <header class="position-absolute menu d-flex">
@@ -61,47 +62,53 @@
         </header>
     </section>
     <section class="container">
-        <div class="slider-css-target"> <!-- Notre conteneur global -->
+        <div class="container gallery">
+            <div class="intro">
+                <h2 class="text-center">Photos</h2>
+                <h3 class="text-center pic pt-2">Nature </h3>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/DSC02106.JPG"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/DSC02106.JPG"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/DSC02084.JPG"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/DSC02084.JPG"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/DSC02131.JPG"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/DSC02131.JPG"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/DSC02143.JPG"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/DSC02143.JPG"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/IMG_1461.jpeg"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/IMG_1461.jpeg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/DSC02366.JPG"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/DSC02366.JPG"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/DSC02352.JPG"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/DSC02352.JPG"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/DSC02349.JPG"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/DSC02349.JPG"></a></div>
 
-            <!-- Notre liste de petites images -->
-            <ul>
-                <li><a href="#votre_id1"><img src="image.jpg" alt="description" height="" width=""></a></li>
-                <!-- chaque lien possede un identifiant different -->
-                <li><a href="#votre_id2"><img src="image.jpg" alt="description" height="" width=""></a></li>
-                <li><a href="#votre_id3"><img src="image.jpg" alt="description" height="" width=""></a></li>
-                <li><a href="#votre_id4"><img src="image.jpg" alt="description" height="" width=""></a></li>
-            </ul>
-            <!-- Notre liste de petites images -->
+            </div>
+            <div class="intro">
+                <h3 class="text-center pic">Produits</h3>
+            </div>
+            <div class="row photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/IMG-0887.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/IMG-0887.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/IMG-0885 (1).jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/IMG-0885 (1).jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/IMG-0905.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/IMG-0905.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/IMG-0882.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/IMG-0882.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/IMG-0883.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/IMG-0883.jpg"></a></div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/IMG-0884.jpg"
+                        data-lightbox="photos"><img class="img-fluid" src="imgs/pictures/IMG-0884.jpg"></a></div>
+            </div>
+        </div>
 
-
-            <div class="slider-css-target-images"><!-- conteneur grandes images -->
-
-
-                <div class=description>
-
-                    <img src="image.jpg" alt="description" height="" width="">
-                </div>
-
-                <div class=description>
-
-                    <img src="image.jpg" alt="description" height="" width="">
-                </div>
-
-                <div class=description>
-
-                    <img src="image.jpg" alt="description" height="" width="">
-                </div>
-
-                <div class=description>
-
-                    <img src="image.jpg" alt="description" height="" width="">
-                </div>
-
-            </div><!-- fin  conteneur grandes images -->
-
-
-        </div><!-- fin conteneur global -->
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
     </section>
 </body>

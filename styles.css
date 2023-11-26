@@ -182,92 +182,56 @@ h3 {
     padding-top: 10rem;
 }
 
-.slider-css-target {
-
-    overflow-x: hidden;
-    max-width: 600px;
-    margin: auto;
-    padding-top: 10rem;
-
-}
-
-.slider-css-target ul {
-
-    margin: 1rem .5rem;
-    /*reset ul*/
+.pic {
     padding: 0;
-    list-style-type: none;
-    /*reset ul*/
-    display: flex;
-    justify-content: space-between;
-    gap: .5rem
 }
 
-
-
-
-.slider-css-target ul li a {
-    display: block
-}
-
-
-
-.slider-css-target ul li img {
-
-    display: block;
-    max-width: 100%;
-    width: 120px;
-    height: 100%;
-    max-height: 80px;
-    border: 2px solid white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
-}
-
-.slider-css-target-images {
-
-    display: flex;
-    width: 400%;
-    will-change: transform;
-    transition: transform .4s ease-in-out
-}
-
-.slider-css-target-images img {
-
-    display: block;
-    width: 100%;
-    height: auto;
-    /*aspect-ratio:3/2;
-object-fit: cover;*/
-
-
-
-}
-
-#votre_id2:target~.slider-css-target .slider-css-target-images {
-
-    transform: translate3d(-25%, 0, 0)
-}
-
-#votre_id3:target~.slider-css-target .slider-css-target-images {
-
-    transform: translate3d(-50%, 0, 0)
-}
-
-#votre_id4:target~.slider-css-target .slider-css-target-images {
-
-    transform: translate3d(-75%, 0, 0)
-}
-
-
-.description {
-
-    background-color: #dbdbdb;
-    flex: 0 1 100%;
-    overflow: hidden;
+.gallery {
+    position: absolute;
 }
 
 .video-title {
     margin-left: 28rem;
     margin-top: 1rem;
     margin-bottom: auto;
+}
+
+.gallery {
+    color: #313437;
+}
+
+.gallery p {
+    color: #7d8285;
+}
+
+.gallery h2 {
+    font-weight: bold;
+    margin-top: 10rem;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .gallery h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.gallery .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 2rem;
+}
+
+.gallery .intro p {
+    margin-bottom: 0;
+}
+
+.gallery .photos {
+    padding-bottom: 20px;
+}
+
+.gallery .item {
+    padding-bottom: 30px;
 }
