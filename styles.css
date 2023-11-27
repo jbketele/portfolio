@@ -186,14 +186,9 @@ h3 {
     padding: 0;
 }
 
-.gallery {
-    position: absolute;
-}
-
 .video-title {
-    margin-left: 28rem;
     margin-top: 1rem;
-    margin-bottom: auto;
+    margin-bottom: 1rem;
 }
 
 .gallery {
@@ -206,8 +201,9 @@ h3 {
 
 .gallery h2 {
     font-weight: bold;
-    margin-top: 10rem;
     color: inherit;
+    margin-top: 0;
+    padding-top: 10rem;
 }
 
 @media (max-width:767px) {

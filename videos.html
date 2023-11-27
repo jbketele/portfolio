@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JB Kétèle - Vidéos</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bootstrap.min.js">
@@ -27,13 +27,16 @@
             padding: 0;
             margin: 0;
         }
+
+        body {
+            background-image: url(imgs/vertical-closeup-shot-sweet-grass-branches-field.jpg);
+            background-size: 100vw;
+            backdrop-filter: contrast(0.5);
+        }
     </style>
 </head>
 
 <body>
-    <div class="background">
-        <img src="imgs/landscape-summer-farm-wheat-field-harvest-crops.jpg" class="field2" alt="">
-    </div>
     <section>
         <header class="position-absolute menu d-flex">
             <img src="imgs/my-logo-fr_.png" class="logo mt-3" alt="">
@@ -63,20 +66,37 @@
     <section class="container">
 
         <h3 class="text-center">Vidéos</h3>
-        <div class="container video position-absolute">
+        <div class="video">
             <div class="paille">
-                <a href="#" class="video-title btn btn-light">Concept Bois et Jeux</a>
+                <div class="d-flex justify-content-center"><a href="#" class="video-title btn btn-light">Concept Bois et
+                        Jeux</a></div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <video controls width="320" height="240" src="video/Minotaure 4.mp4"></video>
+                    <video controls class="240" height="320" src="video/Récréa billes.mp4"></video>
+                    <video controls width="320" height="240" src="video/Jo Jack 5.mp4"></video>
+                </div>
             </div>
             <div class="agrial">
-                <a href="#" class="video-title btn btn-success">Agrial</a>
+                <div class="d-flex justify-content-center"><a href="#" class="video-title btn btn-success"
+                        id="agrial">Agrial</a></div>
+                <div class="d-flex justify-content-center">
+                    <video controls width="560" height="315"
+                        src="video/Tutos_vos_appros_Réalisée_avec_Clipchamp_AdobeExpress.mp4"></video>
+                </div>
             </div>
             <div class="origen">
-                <a href="#" class="video-title btn btn-primary ">Origen Normande</a>
+                <div class="d-flex justify-content-center"><a href="#" class="video-title btn btn-primary"
+                        id="agrial">Origen Normande</a></div>
+                <div class="d-flex justify-content-center">
+                    <video controls width="560" height="315"
+                        src="video/Video_SPACE_2022_final__AdobeExpress.mp4"></video>
+                </div>
             </div>
 
             <div class="AgriMarket">
-                <a href="https://www.youtube.com/channel/UCkGqOFKJUpH4UWUP80w8eTQ"
-                    class="video-title btn btn-warning mb-3">La chaine AgriMarket</a>
+                <div class="d-flex justify-content-center"><a
+                        href="https://www.youtube.com/channel/UCkGqOFKJUpH4UWUP80w8eTQ"
+                        class="video-title btn btn-warning mb-3">La chaine AgriMarket</a></div>
                 <div class="d-flex">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/yk2QRaA1q1Q?si=Qcu5DqApwCd5yjzs"
                         title="YouTube video player" frameborder="0"
@@ -89,6 +109,7 @@
                         allowfullscreen></iframe>
                 </div>
             </div>
+            <br>
         </div>
     </section>
 </body>
