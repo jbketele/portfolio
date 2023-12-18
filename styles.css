@@ -1,5 +1,8 @@
+body {
+    height: 100vh;
+}
+
 .menu {
-    height: 7rem;
     width: 100vw;
     background-color: rgba(217, 217, 217, 0.8);
     padding: 0%;
