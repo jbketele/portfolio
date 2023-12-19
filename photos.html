@@ -30,17 +30,25 @@
             margin: 0;
         }
 
-        body {
-            background-image: url(imgs/vertical-closeup-shot-sweet-grass-branches-field.jpg);
-            background-size: 100vw;
-            backdrop-filter: sepia(1);
+        @media (min-width:767px) {
+            body {
+                background-image: url(imgs/vertical-closeup-shot-sweet-grass-branches-field.jpg);
+                background-size: 100vw;
+                backdrop-filter: sepia(1);
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                background-color: burlywood;
+            }
         }
     </style>
 </head>
 
 <body>
     <section>
-        <header class="position-absolute menu d-flex">
+        <header class="menu d-flex">
             <img src="imgs/my-logo-fr_.png" class="logo mt-3" alt="">
             <nav class="navbar navbar-expand-sm">
                 <div class="container">
@@ -71,7 +79,9 @@
                 <div style="position: absolute;"><a href="realisations.html" class="btn btn-success">Prev</a></div>
                 <div>
                     <h2 class="text-center">Photos</h2>
-                    <h3 class="text-center pic pt-2">Nature </h3>
+                    <h3 class="text-center pic pt-2"
+                        style="padding-top: 2vh;padding-bottom: 2vh; color: white; backdrop-filter: brightness(0.5)">
+                        Nature </h3>
                 </div>
             </div>
             <div class="row photos">
@@ -94,7 +104,9 @@
 
             </div>
             <div class="intro">
-                <h3 class="text-center pic">Produits</h3>
+                <h3 class="text-center pic"
+                    style="padding-top: 2vh;padding-bottom: 2vh; color: white; backdrop-filter: brightness(0.5)">
+                    Produits</h3>
             </div>
             <div class="row photos">
                 <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="imgs/pictures/IMG-0887.jpg"

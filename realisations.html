@@ -29,9 +29,19 @@
             margin: 0;
         }
 
-        body {
-            background-image: url(imgs/superbe-photo-epis-grain-champ-ble.jpg);
-            background-size: 100vw;
+        @media (min-width:767px) {
+
+
+            body {
+                background-image: url(imgs/superbe-photo-epis-grain-champ-ble.jpg);
+                background-size: 100vw;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                background-color: burlywood;
+            }
         }
     </style>
 </head>
