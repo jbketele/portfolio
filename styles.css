@@ -51,7 +51,7 @@ h1 {
     }
 
     .paille-video {
-        display: block;
+        flex-wrap: wrap;
     }
 
     .gallery h2 {
@@ -74,7 +74,7 @@ h1 {
 .paille-video {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .cards {

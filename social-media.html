@@ -29,9 +29,17 @@
             margin: 0;
         }
 
-        body {
-            background-image: url(imgs/vertical-shot-dry-grass-growing-soil.jpg);
-            background-size: 100vw;
+        @media (min-width:767px) {
+            body {
+                background-image: url(imgs/vertical-shot-dry-grass-growing-soil.jpg);
+                background-size: 100vw;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                background-color: seashell;
+            }
         }
     </style>
 </head>
@@ -39,7 +47,7 @@
 <body>
 
     <section>
-        <header class="position-absolute menu d-flex">
+        <header class="menu d-flex">
             <img src="imgs/my-logo-fr_.png" class="logo mt-3" alt="">
             <nav class="navbar navbar-expand-sm">
                 <div class="container">
