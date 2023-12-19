@@ -29,16 +29,38 @@
             margin: 0;
         }
 
-        body {
-            background-image: url(imgs/cereal-growing-field.jpg);
-            background-size: 100vw;
+        @media (min-width:767px) {
+
+
+            body {
+                background-image: url(imgs/field-with-spikelets-close-up-background-with-wheat-spikelets.jpg);
+                background-size: 100vw;
+            }
+
+            .propos {
+                width: 50vw;
+            }
+
+            .propos-content {
+                display: flex;
+            }
+        }
+
+        @media (max-width:767px) {
+            body {
+                background-color: tan;
+            }
+
+            .propos {
+                width: 90vw;
+            }
         }
     </style>
 </head>
 
 <body>
     <section>
-        <header class="position-absolute menu d-flex">
+        <header class="menu d-flex">
             <img src="imgs/my-logo-fr_.png" class="logo mt-3" alt="">
             <nav class="navbar navbar-expand-sm">
                 <div class="container">
@@ -64,17 +86,23 @@
         </header>
     </section>
     <div class="container">
-        <h2 class="text-center" style="margin-top: 5vh;margin-bottom: 5vh;">À propos</h2>
-        <img src="imgs/smart-agriculture-iot-with-hand-planting-tree-background.jpg"
-            style="width: 50vh;float: left;padding-right: 5vh;">
-        <div class="container">
-            <h4 class="text-center">JEAN-BAPTISTE KÉTÈLE</h4>
-            <p>Après avoir travaillé plusieurs années dans la ferme familiale, je me suis rendu compte que le métier
-                n'était pas fait pour moi. Je me suis donc tourné vers le domaine du numérique qui se développe de jour
-                en jour. J'ai commencé par le marketing digital en obtenant un Titre pro Chargé de communication et
-                webmarketing (Bac +2). Je prépare en ce momment un Titre pro Développeur web et web mobile.</p>
-            <p>Par la suite, j'aimerais préparer un autre titre liant webmarketing et développement web : Conception -
-                Design UI.</p>
+        <h2 class="text-center text-white"
+            style="margin-top: 5vh;margin-bottom: 5vh; padding-top: 2vh;padding-bottom: 2vh; backdrop-filter: brightness(0.5)">
+            À propos</h2>
+        <div class="propos-content">
+            <img src="imgs/smart-agriculture-iot-with-hand-planting-tree-background.jpg"
+                style="width: 50vh; margin-bottom: 2rem;">
+            <div class="propos container">
+                <h4 class="text-center">JEAN-BAPTISTE KÉTÈLE</h4>
+                <p>Après avoir travaillé plusieurs années dans la ferme familiale, je me suis rendu compte que le métier
+                    n'était pas fait pour moi. Je me suis donc tourné vers le domaine du numérique qui se développe de
+                    jour
+                    en jour. J'ai commencé par le marketing digital en obtenant un Titre pro Chargé de communication et
+                    webmarketing (Bac +2). Je prépare en ce momment un Titre pro Développeur web et web mobile.</p>
+                <p>Par la suite, j'aimerais préparer un autre titre liant webmarketing et développement web : Conception
+                    -
+                    Design UI.</p>
+            </div>
         </div>
     </div>
 </body>
