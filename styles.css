@@ -120,15 +120,16 @@ h1 {
 
 .contact p {
     background-color: white;
-    height: 5vh;
 }
 
 .contact label {
     width: 20%;
-    height: 100%;
 }
 
-
+.envoyer {
+    width: 5vw;
+    text-align: center;
+}
 
 /* The actual timeline (the vertical ruler) */
 .main-timeline-2 {
