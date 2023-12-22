@@ -118,6 +118,16 @@ h1 {
     padding-bottom: 30px;
 }
 
+.contact p {
+    background-color: white;
+    height: 5vh;
+}
+
+.contact label {
+    width: 20%;
+    height: 100%;
+}
+
 
 
 /* The actual timeline (the vertical ruler) */
