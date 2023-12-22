@@ -122,8 +122,8 @@ h1 {
     background-color: white;
 }
 
-.contact label {
-    width: 20%;
+.message {
+    width: min-content;
 }
 
 .envoyer {
