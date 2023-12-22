@@ -80,40 +80,25 @@
                     <div>
                         <h3 class="mt-3 text-white text-center" style="backdrop-filter: contrast(0.5);">Formulaire</h3>
                         <h5>&#9888; Le forrmulaire n'est pas encore fonctionnel !</h5>
-                        <form netlify>
-                            <div>
-                                <div class="row justify-content-center">
-                                    <div>
-                                        <p class="form-floating">
-                                            <textarea class="form-control" placeholder="first name"
-                                                id="floatingTextarea"></textarea>
-                                            <label for="floatingTextarea">Prénom</label>
-                                        </p>
-                                        <br>
-                                        <p class="form-floating">
-                                            <textarea class="form-control" placeholder="last name"
-                                                id="floatingTextarea"></textarea>
-                                            <label for="floatingTextarea">Nom</label>
-                                        </p>
-                                        <br>
-                                        <p class="form-floating">
-                                            <input type="email" class="form-control" id="floatingInputGrid"
-                                                placeholder="name@example.com">
-                                            <label for="floatingInputGrid">Email</label>
-                                        </p>
-                                        <br>
-                                        <p class="form-floating">
-                                            <input class="form-control" placeholder="Votre message"
-                                                id="floatingTextarea2" style="height: 100px"></input>
-                                            <label for="floatingTextarea2">Message</label>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container-fluid d-flex justify-content-center">
-                                <button type="submit" class="btn btn-primary btn-lg mt-5">Valider</button>
-                            </div>
+                        <form name="contact" method="POST" netlify>
+                            <p>
+                                <label>Nom: <input type="text" name="lastname" /></label>
+                            </p>
+                            <p>
+                                <label>Nom Prénom: <input type="text" name="firstname" /></label>
+                            </p>
+                            <p>
+                                <label>Your Email: <input type="email" name="email" /></label>
+                            </p>
+
+                            <p>
+                                <label>Message: <textarea name="message"></textarea></label>
+                            </p>
+                            <p>
+                                <button type="submit">Envoyer</button>
+                            </p>
                         </form>
+
 
                     </div>
                     <div>
