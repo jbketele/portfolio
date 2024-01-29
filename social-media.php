@@ -59,7 +59,7 @@
 
     <section class="container">
         <div style="margin-top: 2vh;">
-            <div style="position: absolute;"><a href="realisations.html" class="btn btn-success">Prev</a></div>
+            <div style="position: absolute;"><a href="realisations.php" class="btn btn-success">Prev</a></div>
             <h3 class="text-center">Vidéos</h3>
         </div>
         <h3 class="text-center" style="margin-top: 2vh; margin-bottom: 2vh;">Réseaux sociaux</h3>

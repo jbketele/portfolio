@@ -14,12 +14,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jean-Baptiste Kétèle</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="icon" type="image/x-icon" href="imgs/my-logo-fr.png">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap.min.js">
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="bootstrap.min.js">
     <style>
         * {
             margin: 0;
@@ -51,15 +49,9 @@
 <body>
 
 <?php require_once(__DIR__ . '/header.php'); ?>
+
     <div class="landing">
-        <h1 class="display-3  d-flex justify-content-center text-white">BIENVENUE</h1>
-        <h2 class="name d-flex justify-content-center text-white">Jean-Baptiste Kétèle
-        </h2>
-        <p class="accroche d-flex justify-content-center text-white fs-4 fst-italic">En reconversion
-            professionnelle, de
-            l'agriculture
-            au
-            web</p>
+
     </div>
 
 </body>

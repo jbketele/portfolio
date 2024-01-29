@@ -71,7 +71,7 @@
                         <h5 class="card-title">Photos</h5>
                         <p class="card-text">Retrouvez toutes mes photos prises en formation ou pendant mes temps libres
                         </p>
-                        <a href="photos.html" class="btn btn-success">En savoir plus</a>
+                        <a href="photos.php" class="btn btn-success">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Vidéos</h5>
                         <p class="card-text">Retrouvez tous mes montages vidéos fait en formation ou en stage</p>
-                        <a href="videos.html" class="btn btn-success">En savoir plus</a>
+                        <a href="videos.php" class="btn btn-success">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                         <p class="card-text">Retrouvez mes différents posts pour les réseaux sociaux pendant mes stages
                         </p>
 
-                        <a href="social-media.html" class="btn btn-success">En savoir plus</a>
+                        <a href="social-media.php" class="btn btn-success">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
                         <p class="card-text">Retrouvez les différents site codés que j'ai codé pendant ma formation
                         </p>
 
-                        <a href="dev.html" class="btn btn-success">En savoir plus</a>
+                        <a href="dev.php" class="btn btn-success">En savoir plus</a>
                     </div>
                 </div>
             </div>

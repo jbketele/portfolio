@@ -53,7 +53,7 @@
 <?php require_once(__DIR__ . '/header.php'); ?>
 
     <div class="intro" style="margin-top: 2vh;">
-        <div style="position: absolute; margin-left: 2rem;"><a href="realisations.html" class="btn btn-success">Prev</a>
+        <div style="position: absolute; margin-left: 2rem;"><a href="realisations.php" class="btn btn-success">Prev</a>
         </div>
         <div>
             <h2 class="text-center text-white">Développement web</h2>

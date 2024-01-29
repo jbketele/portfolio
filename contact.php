@@ -57,7 +57,26 @@
 
 <?php require_once(__DIR__ . '/header.php'); ?>
 
+<form method="post" action="submit_form.php">
+ 
+<p>
+    <label>Nom : <input type="text" name="lastname" /></label>
+</p>
+<p>
+    <label>Prénom : <input type="text" name="firstname" /></label>
+</p>
+<p>
+    <label>Email : <input type="email" name="email" /></label>
+</p>
 
+<p>
+    <label class="message">Message : <textarea name="message"></textarea></label>
+</p>
+<p class="envoyer">
+    <button type="submit">Envoyer</button>
+</p>
+ 
+</form>
     <section>
 
         <main>
